@@ -1,5 +1,6 @@
 let apiKey='49F5E158C23E4001B0A886BD3455533E';
 let phoneSearch = document.getElementById('phoneSearch');
+let phoneNumber = document.getElementById('phoneNumber');
 let numberValidation = document.getElementById('numberValidation');
 
 
@@ -24,7 +25,9 @@ function saveNumber(phoneHistory){
     return;
 }
 
-phoneSearch.addEventListener(`click`, function(){
+phoneSearch.addEventListener(`click`, function(event)
+{
+    event.preventDefault();
     let phoneNumber = document.getElementById(`phoneNumber`).value;
     if (!isValidPhoneNumber(phoneNumber)){
         window.alert("Please enter a valid phone number")

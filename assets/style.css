@@ -1,0 +1,15 @@
+.is-centered-vertically {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 25vh;          /* Full viewport height */
+    }
+    
+.footer{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
