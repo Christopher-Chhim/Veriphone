@@ -11,7 +11,7 @@
 </head>
 
 
-<nav class="navbar has-shadow is-dark is-justify-content-center">
+<nav class="navbar has-shadow is-dark is-justify-content-center is-size-1">
             <a class="navbar-item">
                 <strong class="has-text-link">Veriphone</strong>
             </a>
@@ -26,16 +26,16 @@
             <h1 class="title has-text-centered ">Veriphone</h1>
                 <label class="label">Enter a Phone Number: </label>
                     <div class="control">
-                        <input class="input" id="phoneNumber" type="phone" placeholder="+1 234-567-890" />
+                        <input class="input" id="phoneNumber" type="phone" placeholder="+1 123-456-7890" />
                     </div> 
                 </div>
                 <section id="numberValidation" class="container"></section>
-                <div class="row">
-                    <p id="valid"></p>
-                    <p id="country"></p>
-                    <p id="localNumber"></p>
-                    <p id="region"></p>
-                    <p id="dialCode"></p>
+                <div class="row" id="apiOutput">
+                    <p id="valid" style="margin-bottom: 10px;"></p>
+                    <p id="country" style="margin-bottom: 10px;"></p>
+                    <p id="localNumber" style="margin-bottom: 10px;"></p>
+                    <p id="region" style="margin-bottom: 10px;"></p>
+                    <p id="dialCode" style="margin-bottom: 10px;"></p>
                 </div>
                 <button class="button is-primary has-text-link has-background-dark" id="phoneSearch">Look Up</button>
                 </form>

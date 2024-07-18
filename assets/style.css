@@ -4,7 +4,7 @@
     align-items: center;    /* Center vertically */
     height: 25vh;          /* Full viewport height */
     }
-    
+
 .footer{
     background-color: #f5f5f5;
     text-align: center;
@@ -13,3 +13,12 @@
     bottom: 0;
     width: 100%;
     }
+
+#apiOutput {
+    margin-bottom: 10px; 
+    color:hsl(217, 71%, 53%);
+}
+
+#apiOutput strong {
+    color:hsl(217, 71%, 53%);
+}
